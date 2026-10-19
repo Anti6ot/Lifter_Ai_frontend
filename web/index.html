@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifterAI | Технический помощник</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="logo">
+        <i class="fa-solid fa-microchip"></i>
+        <span>LifterAI</span>
+      </div>
+      <div class="status-indicator">
+        <span class="dot"></span> Система онлайн
+      </div>
+      <div class="hint-box">
+        <h4>💡 Подсказка</h4>
+        <p>Просто напишите, что случилось. Например:<br> <em>"nice3000 ошибка 41"</em>
+      </div>
+      <div class="hint-box">
+        <h4>💡 Подсказка</h4>
+        <p><br><br><em>"как посмотреть историю ошибок на станции управления УЛ"</em></p>
+      </div>
+    </aside>
+
+    <main class="chat-area">
+      <div id="messages" class="messages-container">
+        <div class="message ai">
+          <div class="avatar"><i class="fa-solid fa-robot"></i></div>
+          <div class="bubble">
+            Здравствуйте! Опишите проблему, укажите код ошибки или модель контроллера, и я найду решение.
+          </div>
+        </div>
+      </div>
+
+      <div class="input-wrapper">
+        <div class="input-box">
+          <textarea id="message" placeholder="Опишите симптомы или задайте вопрос..." rows="1"></textarea>
+          <button id="sendBtn" class="send-btn" title="Отправить">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
