@@ -148,12 +148,10 @@ LifterAi/
 
 ## Установка и развертывание
 
-### Шаг 1: Клонирование и настройка окружения
+### Шаг 1: настройка окружения
 
 ```bash
-git clone https://github.com/Anti6ot/LifterAi.git
-cd LifterAi
-
+ 
 # Создайте файл .env
 cat << 'EOF' > .env
 PORT=3001
