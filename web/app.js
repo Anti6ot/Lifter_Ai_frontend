@@ -1,3 +1,4 @@
+// Если извне добавиьть в API_URL http://IP-server/api
 const API_URL = "/api";
 
 const messageInput = document.getElementById("message");
