@@ -297,10 +297,8 @@ docker stats
 ```
 
 ## Контакты и поддержка
-
-- **Репозиторий:** https://github.com/Anti6ot/LifterAi
-- **Документация:** папка `docs/`
-- **Issues:** https://github.com/Anti6ot/LifterAi/issues
+ 
+- **Issues:** https://github.com/Anti6ot 
 
 ---
 
